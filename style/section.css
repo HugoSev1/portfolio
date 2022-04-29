@@ -5,6 +5,10 @@
     padding: 5px;
 }
 
+.section a {
+    color: #007;
+}
+
 main p {
     margin: 0;
     padding: 10px;

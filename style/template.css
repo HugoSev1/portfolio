@@ -1,0 +1,129 @@
+body {
+    color: #fff;
+    background: #222;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    height: 100vh;
+    font-family: Verdana, sans-serif;
+}
+
+header, footer {
+    color: #000;
+    background: #7af;
+}
+
+header {
+    text-align: center;
+    border-bottom: solid 2px #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-main-flexbox-container {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+nav {
+    color: #000;
+    background: #789;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    border-right: solid 2px #000;
+}
+
+.navContent > .nav--section:hover {
+    background: #678;
+}
+
+.navContent {
+    min-width: 150px;
+    max-width: 150px;
+}
+
+.navContent > a {
+    color: #000;
+    text-decoration: none;
+}
+
+.navContent > .nav--section {
+    display: block;
+    border-bottom: solid 2px black;
+    padding: 10px;
+    cursor: pointer;
+}
+
+nav > .hideNavMenu {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+
+main > .showNavMenu {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    cursor: pointer;
+    color: #000;
+}
+
+main {
+    padding: 30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+main a {
+    color: #0cf;
+    text-decoration: none;
+}
+
+.main-content-container {
+    padding: 0 30px;
+}
+
+footer {
+    font-weight: bold;
+    font-size: 18px;
+    border-top: solid 2px #000;
+    display: flex;
+    align-items: center;
+}
+
+footer > * {
+    padding: 0 10px;
+}
+
+.themeDiv {
+    display: flex;
+    align-items: center;
+}
+
+.themeDiv > .themeLabel {
+    margin-right: 10px;
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+main * a:hover {
+    text-decoration-line: underline;
+}
+
+.imageContainer {
+    text-align: center;
+}
+
+.imageContainer p {
+    text-align: center;
+    margin: 2px 2px 20px;
+}

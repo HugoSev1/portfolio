@@ -1,0 +1,11 @@
+.section {
+    background: #999;
+    border: #bff solid 2px;
+    display: inline-block;
+    padding: 5px;
+}
+
+main p {
+    margin: 0;
+    padding: 10px;
+}
